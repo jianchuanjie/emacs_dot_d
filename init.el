@@ -120,7 +120,7 @@
 (require 'init-clojure)
 (require 'init-clojure-cider)
 (require 'init-common-lisp)
-;;(require 'init-ragel-mode)
+(require 'init-ragel-mode)
 
 (when *spell-check-support-enabled*
   (require 'init-spelling))
