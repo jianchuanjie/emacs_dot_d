@@ -121,7 +121,7 @@
 ;;(require 'init-clojure-cider)
 (require 'init-common-lisp)
 (require 'init-cc-mode)
-;;(require 'init-ragel-mode)
+(require 'init-ragel-mode)
 (require 'init-dumb-jump)
 
 (when *spell-check-support-enabled*
