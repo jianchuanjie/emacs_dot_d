@@ -4,6 +4,7 @@
 
 (when (maybe-require-package 'dumb-jump)
   (setq dumb-jump-selector 'ivy)
+  (setq dumb-jump-default-project "./")
   (dumb-jump-mode))
 
 (provide 'init-dumb-jump)
