@@ -88,4 +88,7 @@
       (eldoc-mode 1)));;)
 (add-hook 'c-mode-common-hook 'c-mode-common-hook-setup)
 
+(require 'google-c-style)
+(add-hook 'c-mode-comon-hook 'google-set-c-style)
+
 (provide 'init-cc-mode)
